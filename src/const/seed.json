@@ -1,0 +1,2722 @@
+[
+  {
+    "customer": [
+      {
+        "id": "80cb1a9a-888b-4fa2-910f-50456e64e70e",
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "email": "emma.johnson@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T23:37:15.183Z",
+        "updated_at": "2023-09-28T21:40:27.847Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b043eac5-71c0-454f-b6d4-d2a5039b6801",
+        "first_name": "Oliver",
+        "last_name": "Williams",
+        "email": "oliver.williams@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-29T07:06:13.844Z",
+        "updated_at": "2023-09-29T03:42:19.186Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3e56332-c25b-4fef-90d9-1fbc5a3a5b0f",
+        "first_name": "Sophia",
+        "last_name": "Brown",
+        "email": "sophia.brown@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-29T00:44:56.878Z",
+        "updated_at": "2023-09-28T13:40:53.197Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc53ce95-4e67-413d-bd06-e30880c648ad",
+        "first_name": "Liam",
+        "last_name": "Jones",
+        "email": "liam.jones@example.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T21:20:05.588Z",
+        "updated_at": "2023-09-29T03:49:41.145Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6061cba-d959-4117-8abb-2af6034167ef",
+        "first_name": "Ava",
+        "last_name": "Miller",
+        "email": "ava.miller@example.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-29T07:05:48.728Z",
+        "updated_at": "2023-09-29T06:21:40.123Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "4e643f92-5005-4836-b170-324d1eb6d380",
+        "product_name": "T-shirt",
+        "quantity": 22978,
+        "last_restock_date": "2023-09-29T10:14:01.072Z",
+        "next_restock_date": "2023-09-29T03:38:40.511Z",
+        "created_at": "2023-09-29T00:10:03.344Z",
+        "updated_at": "2023-09-28T17:38:55.492Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "574f8fc3-7600-453d-84ae-b9278684c6b7",
+        "product_name": "Jeans",
+        "quantity": 35054,
+        "last_restock_date": "2023-09-28T16:23:55.278Z",
+        "next_restock_date": "2023-09-29T09:29:05.338Z",
+        "created_at": "2023-09-28T12:27:00.797Z",
+        "updated_at": "2023-09-29T00:11:41.486Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "88bace0c-2d30-4085-b9c6-d485ece009d1",
+        "product_name": "Sneakers",
+        "quantity": 63165,
+        "last_restock_date": "2023-09-29T08:53:53.179Z",
+        "next_restock_date": "2023-09-29T04:42:27.833Z",
+        "created_at": "2023-09-28T22:25:24.448Z",
+        "updated_at": "2023-09-28T11:43:00.070Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "8892b79f-fed1-437f-ac3e-d77b252a64ee",
+        "product_name": "Watch",
+        "quantity": 4053,
+        "last_restock_date": "2023-09-28T17:40:52.231Z",
+        "next_restock_date": "2023-09-29T08:20:20.837Z",
+        "created_at": "2023-09-29T02:57:30.855Z",
+        "updated_at": "2023-09-29T05:47:26.658Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "3185402f-aa1c-474d-a9d4-cdcc97e36671",
+        "product_name": "Backpack",
+        "quantity": 1477,
+        "last_restock_date": "2023-09-28T17:05:44.923Z",
+        "next_restock_date": "2023-09-28T15:21:40.638Z",
+        "created_at": "2023-09-29T06:52:43.620Z",
+        "updated_at": "2023-09-28T13:21:20.667Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "e0487faf-19cd-4155-98ee-9a54f06dc4e4",
+        "supplier_name": "ABC Suppliers",
+        "quantity_ordered": 34634,
+        "order_date": "2023-09-29T02:51:51.688Z",
+        "expected_delivery_date": "2023-09-28T16:25:18.764Z",
+        "created_at": "2023-09-28T21:12:43.023Z",
+        "updated_at": "2023-09-29T03:00:28.021Z",
+        "business_id": "main_entity_pk",
+        "product_id": "574f8fc3-7600-453d-84ae-b9278684c6b7"
+      },
+      {
+        "id": "04da8c3b-192f-479d-bc64-eb009a469122",
+        "supplier_name": "XYZ Distributors",
+        "quantity_ordered": 59229,
+        "order_date": "2023-09-29T09:58:06.748Z",
+        "expected_delivery_date": "2023-09-29T00:42:16.919Z",
+        "created_at": "2023-09-28T20:23:43.438Z",
+        "updated_at": "2023-09-28T17:13:10.051Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3185402f-aa1c-474d-a9d4-cdcc97e36671"
+      },
+      {
+        "id": "ff8f6adc-0bfa-4890-8440-67a5a1614811",
+        "supplier_name": "123 Manufacturers",
+        "quantity_ordered": 95052,
+        "order_date": "2023-09-29T00:52:13.301Z",
+        "expected_delivery_date": "2023-09-28T12:01:52.352Z",
+        "created_at": "2023-09-28T19:36:33.918Z",
+        "updated_at": "2023-09-29T06:10:36.043Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4e643f92-5005-4836-b170-324d1eb6d380"
+      },
+      {
+        "id": "84c98faa-cd8f-4794-9215-395283684aee",
+        "supplier_name": "Global Importers",
+        "quantity_ordered": 51572,
+        "order_date": "2023-09-28T21:19:42.575Z",
+        "expected_delivery_date": "2023-09-29T07:36:47.790Z",
+        "created_at": "2023-09-28T20:16:11.695Z",
+        "updated_at": "2023-09-29T06:04:17.303Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4e643f92-5005-4836-b170-324d1eb6d380"
+      },
+      {
+        "id": "498501bf-3476-4fce-86b4-685ced01ee0c",
+        "supplier_name": "Best Wholesalers",
+        "quantity_ordered": 25257,
+        "order_date": "2023-09-28T11:35:49.763Z",
+        "expected_delivery_date": "2023-09-28T21:24:09.023Z",
+        "created_at": "2023-09-29T10:04:40.973Z",
+        "updated_at": "2023-09-29T07:07:53.928Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3185402f-aa1c-474d-a9d4-cdcc97e36671"
+      }
+    ],
+    "sales": [
+      {
+        "id": "6a11c211-6554-4e8e-aeb7-fca6b11f031d",
+        "quantity_sold": 33318,
+        "sales_date": "2023-09-28T11:32:50.345Z",
+        "created_at": "2023-09-28T21:21:05.267Z",
+        "updated_at": "2023-09-29T03:21:25.739Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3185402f-aa1c-474d-a9d4-cdcc97e36671"
+      },
+      {
+        "id": "867d8447-7de7-4fd8-8e2e-4da6691f48dd",
+        "quantity_sold": 65037,
+        "sales_date": "2023-09-28T14:12:50.310Z",
+        "created_at": "2023-09-28T11:34:35.881Z",
+        "updated_at": "2023-09-29T09:46:38.381Z",
+        "business_id": "main_entity_pk",
+        "product_id": "88bace0c-2d30-4085-b9c6-d485ece009d1"
+      },
+      {
+        "id": "82ec34dc-47a0-4331-847d-cd8b93be10da",
+        "quantity_sold": 37476,
+        "sales_date": "2023-09-28T17:06:50.316Z",
+        "created_at": "2023-09-29T11:05:24.276Z",
+        "updated_at": "2023-09-28T17:25:56.856Z",
+        "business_id": "main_entity_pk",
+        "product_id": "8892b79f-fed1-437f-ac3e-d77b252a64ee"
+      },
+      {
+        "id": "26f76b07-4266-432d-b927-43989c05b76b",
+        "quantity_sold": 12616,
+        "sales_date": "2023-09-28T20:29:36.182Z",
+        "created_at": "2023-09-28T20:02:54.828Z",
+        "updated_at": "2023-09-29T11:13:19.465Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3185402f-aa1c-474d-a9d4-cdcc97e36671"
+      },
+      {
+        "id": "bca9e69c-8cc2-4de8-bfdc-f33b54d3f374",
+        "quantity_sold": 35786,
+        "sales_date": "2023-09-28T17:14:26.491Z",
+        "created_at": "2023-09-28T20:48:05.244Z",
+        "updated_at": "2023-09-29T03:56:38.477Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3185402f-aa1c-474d-a9d4-cdcc97e36671"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3a5c22b5-5fc6-4ba0-9d61-6ffec06cad79",
+        "email": "Louie_Blick34@roq.tech",
+        "firstName": "Elsie",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87398686",
+        "tenantId": null
+      },
+      {
+        "reference": "793772aa-e901-496c-9894-6a19388d5247",
+        "email": "Mackenzie.Bartell79@roq.tech",
+        "firstName": "Jessy",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71059664",
+        "tenantId": null
+      },
+      {
+        "reference": "af230da1-dbb9-4ae5-b074-ccc1cf51ef09",
+        "email": "Davin_McDermott-Lehner41@roq.tech",
+        "firstName": "Duane",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95089065",
+        "tenantId": null
+      },
+      {
+        "reference": "58cb2a01-ed7c-4e51-8505-4a6512d92f36",
+        "email": "Casandra_Heathcote@roq.tech",
+        "firstName": "Bernardo",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1115.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f233561-609b-4830-9122-31418e59bae0",
+        "email": "Marina.Kautzer22@roq.tech",
+        "firstName": "Jerad",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/226.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "079acec8-3bbc-477c-8455-1e8a49e9110c",
+        "first_name": "Alice",
+        "last_name": "Johnson",
+        "email": "alice.johnson@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-29T09:38:33.846Z",
+        "updated_at": "2023-09-29T10:26:54.868Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a64c2329-be91-48e0-898b-1ac64ca1dc64",
+        "first_name": "Bob",
+        "last_name": "Smith",
+        "email": "bob.smith@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T19:14:28.356Z",
+        "updated_at": "2023-09-28T14:20:49.159Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a6fcf53-2c1d-4bc0-8a86-11a6b7168ba2",
+        "first_name": "Eve",
+        "last_name": "Brown",
+        "email": "eve.brown@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T14:30:15.347Z",
+        "updated_at": "2023-09-28T21:07:36.845Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c65e37b-802c-45d0-92b9-a47727b435cd",
+        "first_name": "Charlie",
+        "last_name": "Davis",
+        "email": "charlie.davis@example.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-29T11:09:02.226Z",
+        "updated_at": "2023-09-29T00:06:33.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d000da7d-d772-4c6b-9cf8-a21757ae18f8",
+        "first_name": "Olivia",
+        "last_name": "Wilson",
+        "email": "olivia.wilson@example.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-29T09:06:52.529Z",
+        "updated_at": "2023-09-28T12:54:45.794Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "18568c9f-4786-444f-9513-0178689562c2",
+        "product_name": "T-shirt",
+        "quantity": 74307,
+        "last_restock_date": "2023-09-29T05:28:36.280Z",
+        "next_restock_date": "2023-09-28T13:16:12.204Z",
+        "created_at": "2023-09-28T12:57:48.023Z",
+        "updated_at": "2023-09-28T23:04:27.551Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "d692919c-239a-47e6-9a40-3a463f9af089",
+        "product_name": "Jeans",
+        "quantity": 15529,
+        "last_restock_date": "2023-09-28T13:49:16.898Z",
+        "next_restock_date": "2023-09-28T16:15:44.751Z",
+        "created_at": "2023-09-29T00:57:31.529Z",
+        "updated_at": "2023-09-29T06:59:02.573Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "cccef084-363d-4a98-a001-d9acc99a386e",
+        "product_name": "Sneakers",
+        "quantity": 81241,
+        "last_restock_date": "2023-09-29T10:02:59.009Z",
+        "next_restock_date": "2023-09-28T16:18:41.017Z",
+        "created_at": "2023-09-29T10:24:26.211Z",
+        "updated_at": "2023-09-29T06:54:11.015Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4232859a-ed7e-4ce6-80d1-107f4206afe8",
+        "product_name": "Watch",
+        "quantity": 60010,
+        "last_restock_date": "2023-09-28T19:23:52.487Z",
+        "next_restock_date": "2023-09-29T10:46:47.290Z",
+        "created_at": "2023-09-28T19:54:28.771Z",
+        "updated_at": "2023-09-28T11:39:16.877Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "c62a59eb-3e50-4869-92d5-5ea52eead58c",
+        "product_name": "Handbag",
+        "quantity": 21655,
+        "last_restock_date": "2023-09-29T09:43:41.831Z",
+        "next_restock_date": "2023-09-29T08:49:51.382Z",
+        "created_at": "2023-09-28T20:31:39.550Z",
+        "updated_at": "2023-09-28T13:51:13.101Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "c4d85409-bc41-4d83-87e8-a06e7e463879",
+        "supplier_name": "ABC Supplier",
+        "quantity_ordered": 37858,
+        "order_date": "2023-09-28T19:48:12.093Z",
+        "expected_delivery_date": "2023-09-28T12:02:16.876Z",
+        "created_at": "2023-09-28T21:24:05.081Z",
+        "updated_at": "2023-09-29T04:46:26.548Z",
+        "business_id": "main_entity_pk",
+        "product_id": "18568c9f-4786-444f-9513-0178689562c2"
+      },
+      {
+        "id": "c48baeb4-79c0-430b-bbed-75b89ec5384a",
+        "supplier_name": "XYZ Supplier",
+        "quantity_ordered": 71848,
+        "order_date": "2023-09-29T00:52:03.658Z",
+        "expected_delivery_date": "2023-09-28T22:35:17.053Z",
+        "created_at": "2023-09-28T19:29:11.083Z",
+        "updated_at": "2023-09-29T00:21:51.977Z",
+        "business_id": "main_entity_pk",
+        "product_id": "d692919c-239a-47e6-9a40-3a463f9af089"
+      },
+      {
+        "id": "9a364db0-cf2a-4f7e-95c4-4980b3dfce93",
+        "supplier_name": "123 Supplier",
+        "quantity_ordered": 69641,
+        "order_date": "2023-09-29T10:28:22.946Z",
+        "expected_delivery_date": "2023-09-28T17:16:36.123Z",
+        "created_at": "2023-09-29T03:26:01.223Z",
+        "updated_at": "2023-09-29T02:53:29.144Z",
+        "business_id": "main_entity_pk",
+        "product_id": "cccef084-363d-4a98-a001-d9acc99a386e"
+      },
+      {
+        "id": "cb60c2df-f208-481c-9e76-d096a9c59ba5",
+        "supplier_name": "Acme Supplier",
+        "quantity_ordered": 65201,
+        "order_date": "2023-09-29T10:38:02.669Z",
+        "expected_delivery_date": "2023-09-28T16:38:06.996Z",
+        "created_at": "2023-09-29T02:17:43.429Z",
+        "updated_at": "2023-09-29T10:18:14.847Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c62a59eb-3e50-4869-92d5-5ea52eead58c"
+      },
+      {
+        "id": "f5df7b1c-8874-42ce-b2ea-27d831a096df",
+        "supplier_name": "Global Supplier",
+        "quantity_ordered": 62899,
+        "order_date": "2023-09-29T01:08:03.538Z",
+        "expected_delivery_date": "2023-09-28T21:23:07.173Z",
+        "created_at": "2023-09-29T00:11:36.597Z",
+        "updated_at": "2023-09-29T09:22:26.358Z",
+        "business_id": "main_entity_pk",
+        "product_id": "18568c9f-4786-444f-9513-0178689562c2"
+      }
+    ],
+    "sales": [
+      {
+        "id": "f0102902-c622-46d6-85b7-e20c9b156b6c",
+        "quantity_sold": 99781,
+        "sales_date": "2023-09-28T22:13:02.242Z",
+        "created_at": "2023-09-28T20:58:57.324Z",
+        "updated_at": "2023-09-29T08:13:54.057Z",
+        "business_id": "main_entity_pk",
+        "product_id": "cccef084-363d-4a98-a001-d9acc99a386e"
+      },
+      {
+        "id": "5875aefb-cafb-418a-869f-3e2b1355aaae",
+        "quantity_sold": 10779,
+        "sales_date": "2023-09-29T09:13:01.852Z",
+        "created_at": "2023-09-29T09:04:02.847Z",
+        "updated_at": "2023-09-29T04:34:52.623Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c62a59eb-3e50-4869-92d5-5ea52eead58c"
+      },
+      {
+        "id": "a004f535-cc61-4275-825e-bf689e6d505a",
+        "quantity_sold": 80431,
+        "sales_date": "2023-09-28T18:43:13.470Z",
+        "created_at": "2023-09-29T08:29:58.320Z",
+        "updated_at": "2023-09-28T13:13:53.077Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c62a59eb-3e50-4869-92d5-5ea52eead58c"
+      },
+      {
+        "id": "728aa286-185e-4e34-a705-b44da7f179fd",
+        "quantity_sold": 32356,
+        "sales_date": "2023-09-28T23:35:24.738Z",
+        "created_at": "2023-09-28T14:50:01.893Z",
+        "updated_at": "2023-09-28T23:09:33.356Z",
+        "business_id": "main_entity_pk",
+        "product_id": "18568c9f-4786-444f-9513-0178689562c2"
+      },
+      {
+        "id": "4ca8a3bb-9385-47d3-a7f7-069c4ccf74b5",
+        "quantity_sold": 63912,
+        "sales_date": "2023-09-29T03:32:44.295Z",
+        "created_at": "2023-09-29T05:05:03.168Z",
+        "updated_at": "2023-09-28T13:21:49.631Z",
+        "business_id": "main_entity_pk",
+        "product_id": "18568c9f-4786-444f-9513-0178689562c2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9b2729fa-c29e-4760-87a1-1657f722e652",
+        "email": "Garrick.Bartoletti82@roq.tech",
+        "firstName": "Ubaldo",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66108071",
+        "tenantId": null
+      },
+      {
+        "reference": "96bed3ea-2f40-406b-9bf5-f6856b6e02d5",
+        "email": "Christ.Purdy@roq.tech",
+        "firstName": "Adelia",
+        "lastName": "Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/896.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "27408f1e-26c8-494b-925a-8458f894084f",
+        "email": "Allan73@roq.tech",
+        "firstName": "Alfredo",
+        "lastName": "Brakus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1136.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a76acf3-1a22-4b6d-8778-2590c3a488a9",
+        "email": "Cortney91@roq.tech",
+        "firstName": "Rafael",
+        "lastName": "Grimes-Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1120.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f35dc6d4-5808-4a84-8a5e-97108fa6799f",
+        "email": "Monica_DAmore19@roq.tech",
+        "firstName": "Alexandre",
+        "lastName": "Mosciski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19539215",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "bea5c51f-8b64-4d56-8778-46b8f85eb0be",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-29T11:15:15.169Z",
+        "updated_at": "2023-09-28T13:08:39.861Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37a91ba7-deb5-40f1-a620-841a07e5f27d",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T17:35:54.505Z",
+        "updated_at": "2023-09-29T10:41:38.584Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f5c7b67-857d-49e2-970b-566b77a4353c",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "email": "michael.brown@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T19:41:42.449Z",
+        "updated_at": "2023-09-28T22:22:21.324Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c64a6c56-49a9-44ab-9356-f7cf29e05fa7",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "email": "sarah.jones@example.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-29T01:04:23.497Z",
+        "updated_at": "2023-09-29T08:30:36.151Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b74bbac1-8ae4-4e65-b1b2-8956ee592d03",
+        "first_name": "David",
+        "last_name": "Wilson",
+        "email": "david.wilson@example.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-28T18:04:28.652Z",
+        "updated_at": "2023-09-29T04:52:40.524Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "a880a30f-07b5-4824-b4a9-096a7b1807bc",
+        "product_name": "T-shirt",
+        "quantity": 19597,
+        "last_restock_date": "2023-09-28T23:17:34.884Z",
+        "next_restock_date": "2023-09-29T07:45:43.731Z",
+        "created_at": "2023-09-29T01:20:38.840Z",
+        "updated_at": "2023-09-29T08:38:56.429Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "168e32e6-eb97-4440-8098-d05bc75f1111",
+        "product_name": "Jeans",
+        "quantity": 73731,
+        "last_restock_date": "2023-09-29T11:08:22.165Z",
+        "next_restock_date": "2023-09-28T23:09:40.776Z",
+        "created_at": "2023-09-28T11:57:38.711Z",
+        "updated_at": "2023-09-29T07:07:22.299Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "6d16880b-d451-41f6-93c8-a7d24f62a312",
+        "product_name": "Shoes",
+        "quantity": 29393,
+        "last_restock_date": "2023-09-28T23:54:48.663Z",
+        "next_restock_date": "2023-09-28T14:42:16.028Z",
+        "created_at": "2023-09-29T06:54:59.758Z",
+        "updated_at": "2023-09-29T01:22:14.928Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "a8bdf512-7529-4041-b681-5dc88341fe05",
+        "product_name": "Handbag",
+        "quantity": 52072,
+        "last_restock_date": "2023-09-29T00:49:11.446Z",
+        "next_restock_date": "2023-09-29T00:03:01.294Z",
+        "created_at": "2023-09-29T07:06:28.103Z",
+        "updated_at": "2023-09-28T21:32:52.923Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0c2a383e-f0b3-4bef-8875-36dc4d359c1b",
+        "product_name": "Watch",
+        "quantity": 7991,
+        "last_restock_date": "2023-09-28T16:17:58.142Z",
+        "next_restock_date": "2023-09-29T01:07:25.037Z",
+        "created_at": "2023-09-28T18:10:15.701Z",
+        "updated_at": "2023-09-29T02:09:11.131Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "88d3b0e4-dc9c-473f-bd5c-28748fa3eb87",
+        "supplier_name": "ABC Supplier",
+        "quantity_ordered": 25995,
+        "order_date": "2023-09-28T18:29:05.618Z",
+        "expected_delivery_date": "2023-09-29T00:24:27.586Z",
+        "created_at": "2023-09-29T01:09:23.062Z",
+        "updated_at": "2023-09-28T13:25:39.746Z",
+        "business_id": "main_entity_pk",
+        "product_id": "a8bdf512-7529-4041-b681-5dc88341fe05"
+      },
+      {
+        "id": "21bcaa7c-1c35-4787-862c-25c560cb5c1b",
+        "supplier_name": "XYZ Supplier",
+        "quantity_ordered": 68699,
+        "order_date": "2023-09-29T06:20:00.368Z",
+        "expected_delivery_date": "2023-09-28T13:16:12.612Z",
+        "created_at": "2023-09-29T03:36:33.117Z",
+        "updated_at": "2023-09-28T14:42:57.979Z",
+        "business_id": "main_entity_pk",
+        "product_id": "6d16880b-d451-41f6-93c8-a7d24f62a312"
+      },
+      {
+        "id": "b8926e77-ebfa-4fc2-9afc-e2b787f12bab",
+        "supplier_name": "123 Supplier",
+        "quantity_ordered": 93627,
+        "order_date": "2023-09-28T18:04:54.393Z",
+        "expected_delivery_date": "2023-09-28T19:17:00.040Z",
+        "created_at": "2023-09-29T03:53:39.101Z",
+        "updated_at": "2023-09-28T22:41:35.612Z",
+        "business_id": "main_entity_pk",
+        "product_id": "6d16880b-d451-41f6-93c8-a7d24f62a312"
+      },
+      {
+        "id": "06872d61-9616-42be-ba49-f46b002fa747",
+        "supplier_name": "Acme Supplier",
+        "quantity_ordered": 49313,
+        "order_date": "2023-09-28T15:59:33.113Z",
+        "expected_delivery_date": "2023-09-29T10:05:03.176Z",
+        "created_at": "2023-09-29T03:39:02.329Z",
+        "updated_at": "2023-09-29T00:56:10.584Z",
+        "business_id": "main_entity_pk",
+        "product_id": "a880a30f-07b5-4824-b4a9-096a7b1807bc"
+      },
+      {
+        "id": "5a48a83b-af5b-4d51-ac0d-501fcb3a526c",
+        "supplier_name": "Global Supplier",
+        "quantity_ordered": 75828,
+        "order_date": "2023-09-28T23:28:00.043Z",
+        "expected_delivery_date": "2023-09-28T15:02:56.332Z",
+        "created_at": "2023-09-28T11:49:06.214Z",
+        "updated_at": "2023-09-29T02:42:08.599Z",
+        "business_id": "main_entity_pk",
+        "product_id": "a8bdf512-7529-4041-b681-5dc88341fe05"
+      }
+    ],
+    "sales": [
+      {
+        "id": "1d6b5dc3-460f-4b14-b875-7e840d24a916",
+        "quantity_sold": 45317,
+        "sales_date": "2023-09-28T21:09:45.712Z",
+        "created_at": "2023-09-29T10:11:58.342Z",
+        "updated_at": "2023-09-28T14:26:17.682Z",
+        "business_id": "main_entity_pk",
+        "product_id": "0c2a383e-f0b3-4bef-8875-36dc4d359c1b"
+      },
+      {
+        "id": "793f51fa-442e-4f16-b20e-df55b9329871",
+        "quantity_sold": 75491,
+        "sales_date": "2023-09-28T20:45:04.819Z",
+        "created_at": "2023-09-29T06:07:03.619Z",
+        "updated_at": "2023-09-28T17:29:41.839Z",
+        "business_id": "main_entity_pk",
+        "product_id": "168e32e6-eb97-4440-8098-d05bc75f1111"
+      },
+      {
+        "id": "a8907e4b-dacc-4105-af09-08843d2fcd08",
+        "quantity_sold": 69936,
+        "sales_date": "2023-09-29T11:13:01.396Z",
+        "created_at": "2023-09-29T04:00:25.718Z",
+        "updated_at": "2023-09-28T13:58:53.959Z",
+        "business_id": "main_entity_pk",
+        "product_id": "a8bdf512-7529-4041-b681-5dc88341fe05"
+      },
+      {
+        "id": "6b8ec7eb-685b-4e12-9a43-f7cde3ee7538",
+        "quantity_sold": 33696,
+        "sales_date": "2023-09-28T19:56:44.858Z",
+        "created_at": "2023-09-29T02:45:20.696Z",
+        "updated_at": "2023-09-29T07:25:10.580Z",
+        "business_id": "main_entity_pk",
+        "product_id": "168e32e6-eb97-4440-8098-d05bc75f1111"
+      },
+      {
+        "id": "fa745f99-614f-49d6-b954-bf81ca7e4b3f",
+        "quantity_sold": 90339,
+        "sales_date": "2023-09-28T11:51:55.225Z",
+        "created_at": "2023-09-29T01:23:41.573Z",
+        "updated_at": "2023-09-28T19:54:11.366Z",
+        "business_id": "main_entity_pk",
+        "product_id": "168e32e6-eb97-4440-8098-d05bc75f1111"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8a059cd6-2bd5-4dad-b02d-21a3695428ca",
+        "email": "Pearline6@roq.tech",
+        "firstName": "Betty",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/553.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a725ac7-013b-4c43-a8ca-fae441f3ab1b",
+        "email": "Catharine21@roq.tech",
+        "firstName": "General",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29761378",
+        "tenantId": null
+      },
+      {
+        "reference": "8173dfea-d8a7-4179-9ca3-c2d9bde28733",
+        "email": "Clifford46@roq.tech",
+        "firstName": "Phyllis",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/988.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15be14f1-c629-44a1-a45a-e325b1f412e8",
+        "email": "Lazaro.Morar-Beatty39@roq.tech",
+        "firstName": "Macy",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/801.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "97979fba-7f3f-4a90-b618-8b820cded14b",
+        "email": "Tomas_OHara68@roq.tech",
+        "firstName": "Elsie",
+        "lastName": "Osinski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8349009",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "c1bd3304-8387-4cc2-b340-17eaf055109c",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "johndoe@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-29T08:23:41.806Z",
+        "updated_at": "2023-09-29T00:57:47.257Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c6050e0f-68a4-4c94-a123-4915d217a9de",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "janedoe@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-29T05:08:22.791Z",
+        "updated_at": "2023-09-29T03:18:35.284Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0b68d0e-0e81-4268-8d1e-5f697264ae81",
+        "first_name": "Alex",
+        "last_name": "Smith",
+        "email": "alexsmith@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-29T00:42:05.218Z",
+        "updated_at": "2023-09-29T07:58:09.956Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a312eb1-c401-4722-a912-0929540c6a54",
+        "first_name": "Emily",
+        "last_name": "Jones",
+        "email": "emilyjones@example.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T20:03:21.789Z",
+        "updated_at": "2023-09-28T13:24:58.808Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d99d7288-7270-4c7c-afc3-7d209ef24065",
+        "first_name": "Michael",
+        "last_name": "Scott",
+        "email": "michaelscott@example.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-28T16:08:41.516Z",
+        "updated_at": "2023-09-29T08:34:43.935Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "ebf8d921-fcae-486b-be02-267a50885a4f",
+        "product_name": "T-shirt",
+        "quantity": 66091,
+        "last_restock_date": "2023-09-29T02:32:28.773Z",
+        "next_restock_date": "2023-09-29T00:31:38.862Z",
+        "created_at": "2023-09-28T13:58:27.092Z",
+        "updated_at": "2023-09-29T07:24:09.157Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "5dec16c9-9804-44ec-a02c-3cd866bed9c5",
+        "product_name": "Jeans",
+        "quantity": 23800,
+        "last_restock_date": "2023-09-28T21:25:53.785Z",
+        "next_restock_date": "2023-09-29T07:39:14.922Z",
+        "created_at": "2023-09-28T14:42:09.504Z",
+        "updated_at": "2023-09-29T05:21:40.157Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "80e3593d-c5aa-4ce5-b2b3-b64ba3afd642",
+        "product_name": "Shoes",
+        "quantity": 98451,
+        "last_restock_date": "2023-09-29T09:18:11.867Z",
+        "next_restock_date": "2023-09-28T23:15:33.162Z",
+        "created_at": "2023-09-28T20:38:48.696Z",
+        "updated_at": "2023-09-29T11:20:23.397Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "79112e9b-a1aa-4411-9825-92b57279a635",
+        "product_name": "Sunglasses",
+        "quantity": 96214,
+        "last_restock_date": "2023-09-28T17:49:13.623Z",
+        "next_restock_date": "2023-09-28T13:15:30.419Z",
+        "created_at": "2023-09-29T01:56:51.911Z",
+        "updated_at": "2023-09-29T03:31:12.825Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0bc128ea-9b2f-463a-9d8c-086c83a23d7d",
+        "product_name": "Watch",
+        "quantity": 16939,
+        "last_restock_date": "2023-09-28T20:15:58.297Z",
+        "next_restock_date": "2023-09-29T05:09:14.395Z",
+        "created_at": "2023-09-28T18:41:22.472Z",
+        "updated_at": "2023-09-28T12:26:21.740Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "8cc6dcf5-3760-4eba-ad87-b410cc536871",
+        "supplier_name": "Supplier A",
+        "quantity_ordered": 59183,
+        "order_date": "2023-09-28T18:25:13.206Z",
+        "expected_delivery_date": "2023-09-28T18:15:49.518Z",
+        "created_at": "2023-09-29T06:05:26.636Z",
+        "updated_at": "2023-09-28T21:15:48.422Z",
+        "business_id": "main_entity_pk",
+        "product_id": "ebf8d921-fcae-486b-be02-267a50885a4f"
+      },
+      {
+        "id": "773f0506-143d-49c2-a4f4-be8e8086cee6",
+        "supplier_name": "Supplier B",
+        "quantity_ordered": 70371,
+        "order_date": "2023-09-29T05:18:58.963Z",
+        "expected_delivery_date": "2023-09-29T00:57:47.295Z",
+        "created_at": "2023-09-28T13:23:18.344Z",
+        "updated_at": "2023-09-29T04:42:23.316Z",
+        "business_id": "main_entity_pk",
+        "product_id": "ebf8d921-fcae-486b-be02-267a50885a4f"
+      },
+      {
+        "id": "abda34ab-c492-4198-a4f7-eb2a454540fb",
+        "supplier_name": "Supplier C",
+        "quantity_ordered": 38824,
+        "order_date": "2023-09-29T08:44:30.290Z",
+        "expected_delivery_date": "2023-09-28T14:34:35.247Z",
+        "created_at": "2023-09-29T05:51:57.672Z",
+        "updated_at": "2023-09-29T03:16:41.222Z",
+        "business_id": "main_entity_pk",
+        "product_id": "80e3593d-c5aa-4ce5-b2b3-b64ba3afd642"
+      },
+      {
+        "id": "07da496b-eba7-40c6-9925-4e2faac6e483",
+        "supplier_name": "Supplier D",
+        "quantity_ordered": 81410,
+        "order_date": "2023-09-29T03:48:03.898Z",
+        "expected_delivery_date": "2023-09-28T15:13:57.094Z",
+        "created_at": "2023-09-29T09:06:09.251Z",
+        "updated_at": "2023-09-28T23:59:31.377Z",
+        "business_id": "main_entity_pk",
+        "product_id": "79112e9b-a1aa-4411-9825-92b57279a635"
+      },
+      {
+        "id": "0aa0bb5e-da3c-4e63-9d8c-04b24523f8ac",
+        "supplier_name": "Supplier E",
+        "quantity_ordered": 51972,
+        "order_date": "2023-09-28T14:51:42.416Z",
+        "expected_delivery_date": "2023-09-28T17:44:24.518Z",
+        "created_at": "2023-09-28T17:03:03.113Z",
+        "updated_at": "2023-09-29T02:43:51.209Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5dec16c9-9804-44ec-a02c-3cd866bed9c5"
+      }
+    ],
+    "sales": [
+      {
+        "id": "9b56ff67-a590-40b2-976f-76e4a91375b4",
+        "quantity_sold": 45197,
+        "sales_date": "2023-09-28T17:00:07.419Z",
+        "created_at": "2023-09-28T19:09:45.240Z",
+        "updated_at": "2023-09-28T16:11:32.696Z",
+        "business_id": "main_entity_pk",
+        "product_id": "80e3593d-c5aa-4ce5-b2b3-b64ba3afd642"
+      },
+      {
+        "id": "9fe9c70e-a3eb-45a0-aaaf-497a848c551a",
+        "quantity_sold": 70203,
+        "sales_date": "2023-09-28T15:57:35.014Z",
+        "created_at": "2023-09-28T14:25:29.537Z",
+        "updated_at": "2023-09-28T20:51:06.763Z",
+        "business_id": "main_entity_pk",
+        "product_id": "ebf8d921-fcae-486b-be02-267a50885a4f"
+      },
+      {
+        "id": "264154ab-4c69-4e18-a238-c5098efbb07f",
+        "quantity_sold": 20475,
+        "sales_date": "2023-09-29T07:18:01.094Z",
+        "created_at": "2023-09-28T15:42:06.547Z",
+        "updated_at": "2023-09-28T17:29:37.615Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5dec16c9-9804-44ec-a02c-3cd866bed9c5"
+      },
+      {
+        "id": "79dead3a-ce5c-41b9-8c4d-2edb005c4270",
+        "quantity_sold": 24784,
+        "sales_date": "2023-09-28T15:57:11.361Z",
+        "created_at": "2023-09-28T18:46:11.469Z",
+        "updated_at": "2023-09-28T12:16:11.164Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5dec16c9-9804-44ec-a02c-3cd866bed9c5"
+      },
+      {
+        "id": "b79c4a5b-d118-4b3e-ba27-bb8006b188ba",
+        "quantity_sold": 45669,
+        "sales_date": "2023-09-29T09:26:20.152Z",
+        "created_at": "2023-09-29T03:35:38.211Z",
+        "updated_at": "2023-09-29T04:40:13.900Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5dec16c9-9804-44ec-a02c-3cd866bed9c5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "78593af1-dac8-4db9-b38b-d07f30aea19e",
+        "email": "Janet_Halvorson77@roq.tech",
+        "firstName": "Ariel",
+        "lastName": "Jones-Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5385c55e-584d-4cfe-b3be-1d7f0ddc0a62",
+        "email": "Evan_OHara@roq.tech",
+        "firstName": "Bobbie",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/944.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1174d84a-7b15-4c81-b33f-b8fd663fb4c4",
+        "email": "Millie.Bartoletti55@roq.tech",
+        "firstName": "Savannah",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27164641",
+        "tenantId": null
+      },
+      {
+        "reference": "4ffbd029-eea0-40ea-b9c3-dec21c946447",
+        "email": "Leonor_Bosco93@roq.tech",
+        "firstName": "Jack",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/753.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2542160-bc22-4bcd-93e1-1912488f1fd6",
+        "email": "Andreanne.Mraz23@roq.tech",
+        "firstName": "Alexandre",
+        "lastName": "Kling",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64553366",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "d0072fe6-fb24-4948-8947-c82405eca8be",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-29T04:02:03.052Z",
+        "updated_at": "2023-09-29T10:13:33.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79a19899-0600-443b-81ff-a6a36dc3232b",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "email": "daniel.brown@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-29T08:57:31.739Z",
+        "updated_at": "2023-09-29T08:25:24.630Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e53518e0-f207-4101-af1c-c1273e012a27",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "email": "olivia.taylor@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-29T05:32:40.922Z",
+        "updated_at": "2023-09-28T16:33:44.180Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee004b0b-655e-4d94-be45-756cad516e8f",
+        "first_name": "James",
+        "last_name": "Anderson",
+        "email": "james.anderson@example.com",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-29T03:12:53.297Z",
+        "updated_at": "2023-09-29T02:52:58.539Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ed9a7a3-176a-4da1-b46a-3513313ed8a8",
+        "first_name": "Sophia",
+        "last_name": "Clark",
+        "email": "sophia.clark@example.com",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-29T00:56:51.840Z",
+        "updated_at": "2023-09-28T18:08:07.725Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "7b938659-3b7d-4e7b-a9f0-1709c4ffc5da",
+        "product_name": "Red T-Shirt",
+        "quantity": 15556,
+        "last_restock_date": "2023-09-29T04:40:22.434Z",
+        "next_restock_date": "2023-09-29T03:31:35.243Z",
+        "created_at": "2023-09-28T14:43:45.423Z",
+        "updated_at": "2023-09-29T04:34:45.729Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "eda1b297-4101-45c4-bc89-9819a8920dba",
+        "product_name": "Blue Jeans",
+        "quantity": 79810,
+        "last_restock_date": "2023-09-28T21:33:47.331Z",
+        "next_restock_date": "2023-09-29T06:42:51.407Z",
+        "created_at": "2023-09-28T14:00:12.486Z",
+        "updated_at": "2023-09-28T20:37:53.670Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4dd4435d-3b66-48d6-a3a9-30e61f5af9e5",
+        "product_name": "Black Dress",
+        "quantity": 67081,
+        "last_restock_date": "2023-09-29T00:01:59.871Z",
+        "next_restock_date": "2023-09-28T20:11:28.524Z",
+        "created_at": "2023-09-28T14:04:08.049Z",
+        "updated_at": "2023-09-28T12:06:14.175Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "3a342fb0-edf2-462e-bccb-62a476643da7",
+        "product_name": "White Sneakers",
+        "quantity": 78871,
+        "last_restock_date": "2023-09-28T17:40:14.721Z",
+        "next_restock_date": "2023-09-28T12:31:38.222Z",
+        "created_at": "2023-09-28T23:44:01.019Z",
+        "updated_at": "2023-09-29T00:59:11.310Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "b667c263-ce38-4c25-84e0-f1e7022118f6",
+        "product_name": "Green Jacket",
+        "quantity": 52489,
+        "last_restock_date": "2023-09-28T15:40:22.641Z",
+        "next_restock_date": "2023-09-28T20:25:09.787Z",
+        "created_at": "2023-09-29T03:23:45.517Z",
+        "updated_at": "2023-09-28T22:21:23.358Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "ff350591-a962-4915-91a0-74f5c5c888b5",
+        "supplier_name": "ABC Suppliers",
+        "quantity_ordered": 36398,
+        "order_date": "2023-09-29T00:56:12.430Z",
+        "expected_delivery_date": "2023-09-28T19:40:20.412Z",
+        "created_at": "2023-09-28T18:25:48.036Z",
+        "updated_at": "2023-09-28T21:43:21.658Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4dd4435d-3b66-48d6-a3a9-30e61f5af9e5"
+      },
+      {
+        "id": "c50e7d4b-d122-4b51-a6fc-a2a51f92ff37",
+        "supplier_name": "XYZ Distributors",
+        "quantity_ordered": 54088,
+        "order_date": "2023-09-29T07:04:14.521Z",
+        "expected_delivery_date": "2023-09-29T01:06:03.371Z",
+        "created_at": "2023-09-28T19:14:58.023Z",
+        "updated_at": "2023-09-29T05:41:11.530Z",
+        "business_id": "main_entity_pk",
+        "product_id": "eda1b297-4101-45c4-bc89-9819a8920dba"
+      },
+      {
+        "id": "575ea443-61bb-4b1c-8273-63ae5e41b473",
+        "supplier_name": "123 Manufacturers",
+        "quantity_ordered": 20119,
+        "order_date": "2023-09-29T06:53:28.671Z",
+        "expected_delivery_date": "2023-09-28T20:35:15.451Z",
+        "created_at": "2023-09-28T15:59:19.195Z",
+        "updated_at": "2023-09-28T20:16:10.890Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4dd4435d-3b66-48d6-a3a9-30e61f5af9e5"
+      },
+      {
+        "id": "28da3ea2-c8b5-4df8-901a-76148a9a2a10",
+        "supplier_name": "LMN Wholesalers",
+        "quantity_ordered": 80312,
+        "order_date": "2023-09-29T07:23:09.711Z",
+        "expected_delivery_date": "2023-09-28T15:33:46.152Z",
+        "created_at": "2023-09-28T19:40:31.364Z",
+        "updated_at": "2023-09-28T17:16:53.806Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4dd4435d-3b66-48d6-a3a9-30e61f5af9e5"
+      },
+      {
+        "id": "37bbd11a-86b7-4645-a5f8-f2be2d20073f",
+        "supplier_name": "PQR Importers",
+        "quantity_ordered": 73570,
+        "order_date": "2023-09-28T12:38:55.235Z",
+        "expected_delivery_date": "2023-09-29T05:19:11.549Z",
+        "created_at": "2023-09-29T08:49:18.867Z",
+        "updated_at": "2023-09-29T03:58:17.589Z",
+        "business_id": "main_entity_pk",
+        "product_id": "b667c263-ce38-4c25-84e0-f1e7022118f6"
+      }
+    ],
+    "sales": [
+      {
+        "id": "a89d0e91-adb6-481d-acf1-17de817273c4",
+        "quantity_sold": 53324,
+        "sales_date": "2023-09-29T03:24:56.251Z",
+        "created_at": "2023-09-29T00:46:01.023Z",
+        "updated_at": "2023-09-29T03:45:15.789Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3a342fb0-edf2-462e-bccb-62a476643da7"
+      },
+      {
+        "id": "e7373dd9-37d1-418a-b925-a41685696c60",
+        "quantity_sold": 28042,
+        "sales_date": "2023-09-28T12:51:39.546Z",
+        "created_at": "2023-09-29T05:38:16.699Z",
+        "updated_at": "2023-09-29T07:26:39.398Z",
+        "business_id": "main_entity_pk",
+        "product_id": "eda1b297-4101-45c4-bc89-9819a8920dba"
+      },
+      {
+        "id": "81dbe616-d505-4873-897a-05924ec5240d",
+        "quantity_sold": 31866,
+        "sales_date": "2023-09-28T17:47:09.019Z",
+        "created_at": "2023-09-28T16:26:49.597Z",
+        "updated_at": "2023-09-28T22:40:18.776Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7b938659-3b7d-4e7b-a9f0-1709c4ffc5da"
+      },
+      {
+        "id": "3c9ae633-f364-456e-aa8b-78602e29dd33",
+        "quantity_sold": 11732,
+        "sales_date": "2023-09-28T12:42:18.300Z",
+        "created_at": "2023-09-29T00:48:00.879Z",
+        "updated_at": "2023-09-29T02:49:03.195Z",
+        "business_id": "main_entity_pk",
+        "product_id": "eda1b297-4101-45c4-bc89-9819a8920dba"
+      },
+      {
+        "id": "f4ca9677-232f-4af9-b21c-7bb6b5f3a913",
+        "quantity_sold": 54052,
+        "sales_date": "2023-09-29T08:54:52.095Z",
+        "created_at": "2023-09-28T16:02:03.159Z",
+        "updated_at": "2023-09-28T22:44:19.833Z",
+        "business_id": "main_entity_pk",
+        "product_id": "4dd4435d-3b66-48d6-a3a9-30e61f5af9e5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "05c12eb7-f9fc-477e-baa8-a6f6b8651d50",
+        "email": "Alexandro.Kuhn56@roq.tech",
+        "firstName": "Mona",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31007980",
+        "tenantId": null
+      },
+      {
+        "reference": "7f2e7188-bc68-49a0-91f6-49992729c820",
+        "email": "Sherman.Bergnaum32@roq.tech",
+        "firstName": "Forest",
+        "lastName": "Hegmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/148.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d113eff-8fde-46f3-b195-746122e82efa",
+        "email": "Katrine.Wolff96@roq.tech",
+        "firstName": "Melody",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67768279",
+        "tenantId": null
+      },
+      {
+        "reference": "d71c8d2a-83b7-4600-8af7-d09a7a0100ba",
+        "email": "Danny_Metz20@roq.tech",
+        "firstName": "Noelia",
+        "lastName": "Rodriguez",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/621.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "413acbdb-091e-4a5a-8a77-97f0c939cacb",
+        "email": "Eliane38@roq.tech",
+        "firstName": "Mariam",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/102.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "87032a47-da88-4185-8271-194c2877091a",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "johndoe@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T13:33:33.947Z",
+        "updated_at": "2023-09-29T11:12:09.741Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "12461f28-3520-4791-a335-b5bbe60caaae",
+        "first_name": "Jane",
+        "last_name": "Doe",
+        "email": "janedoe@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T17:06:58.715Z",
+        "updated_at": "2023-09-28T17:11:51.523Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "04559188-2514-464f-946b-415f075343bc",
+        "first_name": "Mike",
+        "last_name": "Smith",
+        "email": "mike@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-29T06:30:56.116Z",
+        "updated_at": "2023-09-28T18:22:37.381Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce5be1b1-1a8b-48b9-87c5-ad4f6493a7dc",
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "email": "sarah@example.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T17:06:46.786Z",
+        "updated_at": "2023-09-29T10:06:17.923Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cd7a448-3f64-4e0c-863a-ca964fb59adb",
+        "first_name": "Alex",
+        "last_name": "Brown",
+        "email": "alex@example.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-28T16:35:53.057Z",
+        "updated_at": "2023-09-28T21:23:04.902Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "dad59ad5-95b2-403b-a73e-ec31b3ca4c67",
+        "product_name": "T-shirt",
+        "quantity": 42613,
+        "last_restock_date": "2023-09-29T09:58:22.729Z",
+        "next_restock_date": "2023-09-28T17:36:58.949Z",
+        "created_at": "2023-09-28T16:57:04.519Z",
+        "updated_at": "2023-09-28T22:59:39.637Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "327ed026-5754-4d18-8520-8df0b07113d1",
+        "product_name": "Jeans",
+        "quantity": 18580,
+        "last_restock_date": "2023-09-28T22:42:02.879Z",
+        "next_restock_date": "2023-09-29T09:19:08.314Z",
+        "created_at": "2023-09-28T15:22:59.884Z",
+        "updated_at": "2023-09-28T11:31:22.141Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "6959cec9-4a22-413a-b191-dd69478ed754",
+        "product_name": "Shoes",
+        "quantity": 2135,
+        "last_restock_date": "2023-09-28T20:17:24.443Z",
+        "next_restock_date": "2023-09-28T13:36:32.222Z",
+        "created_at": "2023-09-29T10:27:29.582Z",
+        "updated_at": "2023-09-28T21:53:37.111Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "45b5e248-09ac-4c93-a76d-dd77fc359f9a",
+        "product_name": "Hat",
+        "quantity": 5998,
+        "last_restock_date": "2023-09-29T10:08:19.608Z",
+        "next_restock_date": "2023-09-29T02:49:47.455Z",
+        "created_at": "2023-09-28T20:41:10.318Z",
+        "updated_at": "2023-09-29T06:19:55.445Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "c9e47a2d-fb2a-4e5b-b9e3-bc1441679581",
+        "product_name": "Sunglasses",
+        "quantity": 19982,
+        "last_restock_date": "2023-09-28T15:39:05.040Z",
+        "next_restock_date": "2023-09-28T23:18:13.963Z",
+        "created_at": "2023-09-28T15:00:33.479Z",
+        "updated_at": "2023-09-29T04:51:34.029Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "476af8f9-fc30-4ef8-880d-3f22a36f1e70",
+        "supplier_name": "ABC Supplier",
+        "quantity_ordered": 55468,
+        "order_date": "2023-09-29T11:05:22.654Z",
+        "expected_delivery_date": "2023-09-29T04:39:36.927Z",
+        "created_at": "2023-09-29T07:08:16.697Z",
+        "updated_at": "2023-09-28T12:56:11.059Z",
+        "business_id": "main_entity_pk",
+        "product_id": "45b5e248-09ac-4c93-a76d-dd77fc359f9a"
+      },
+      {
+        "id": "236cc82f-ab8c-4826-80a3-52d7fdce8f29",
+        "supplier_name": "XYZ Supplier",
+        "quantity_ordered": 27073,
+        "order_date": "2023-09-29T10:17:02.093Z",
+        "expected_delivery_date": "2023-09-29T03:18:38.058Z",
+        "created_at": "2023-09-28T19:06:14.302Z",
+        "updated_at": "2023-09-28T22:01:32.436Z",
+        "business_id": "main_entity_pk",
+        "product_id": "dad59ad5-95b2-403b-a73e-ec31b3ca4c67"
+      },
+      {
+        "id": "2267d6e4-b8b6-4514-9439-486d925ee65a",
+        "supplier_name": "123 Supplier",
+        "quantity_ordered": 25868,
+        "order_date": "2023-09-29T01:30:13.691Z",
+        "expected_delivery_date": "2023-09-29T07:32:25.809Z",
+        "created_at": "2023-09-28T12:05:18.888Z",
+        "updated_at": "2023-09-29T02:47:24.428Z",
+        "business_id": "main_entity_pk",
+        "product_id": "6959cec9-4a22-413a-b191-dd69478ed754"
+      },
+      {
+        "id": "db7e3f06-43d4-460c-b42c-97686723f88e",
+        "supplier_name": "Smith Supplier",
+        "quantity_ordered": 77002,
+        "order_date": "2023-09-28T20:00:05.970Z",
+        "expected_delivery_date": "2023-09-29T05:01:47.520Z",
+        "created_at": "2023-09-29T11:23:08.030Z",
+        "updated_at": "2023-09-29T08:04:31.628Z",
+        "business_id": "main_entity_pk",
+        "product_id": "dad59ad5-95b2-403b-a73e-ec31b3ca4c67"
+      },
+      {
+        "id": "6b3ee7a9-e24c-4226-a538-1d1598b08893",
+        "supplier_name": "Johnson Supplier",
+        "quantity_ordered": 50171,
+        "order_date": "2023-09-29T01:52:28.843Z",
+        "expected_delivery_date": "2023-09-28T16:02:21.400Z",
+        "created_at": "2023-09-29T01:18:00.177Z",
+        "updated_at": "2023-09-29T04:26:11.243Z",
+        "business_id": "main_entity_pk",
+        "product_id": "45b5e248-09ac-4c93-a76d-dd77fc359f9a"
+      }
+    ],
+    "sales": [
+      {
+        "id": "6d286332-5368-4737-996a-ef00ee03ea55",
+        "quantity_sold": 1654,
+        "sales_date": "2023-09-29T00:31:26.557Z",
+        "created_at": "2023-09-29T11:11:54.104Z",
+        "updated_at": "2023-09-29T03:38:32.375Z",
+        "business_id": "main_entity_pk",
+        "product_id": "45b5e248-09ac-4c93-a76d-dd77fc359f9a"
+      },
+      {
+        "id": "fb030225-f1f6-416a-a812-e91d220ff6d5",
+        "quantity_sold": 62454,
+        "sales_date": "2023-09-28T21:25:24.914Z",
+        "created_at": "2023-09-29T04:22:18.007Z",
+        "updated_at": "2023-09-29T01:41:51.296Z",
+        "business_id": "main_entity_pk",
+        "product_id": "dad59ad5-95b2-403b-a73e-ec31b3ca4c67"
+      },
+      {
+        "id": "146f96cb-07de-42f6-8a91-e66d3f9236f5",
+        "quantity_sold": 95405,
+        "sales_date": "2023-09-29T03:36:35.074Z",
+        "created_at": "2023-09-28T11:56:50.126Z",
+        "updated_at": "2023-09-29T00:01:00.436Z",
+        "business_id": "main_entity_pk",
+        "product_id": "327ed026-5754-4d18-8520-8df0b07113d1"
+      },
+      {
+        "id": "1c5361bc-3ae5-423a-ac76-fd9765459339",
+        "quantity_sold": 19303,
+        "sales_date": "2023-09-28T19:11:48.519Z",
+        "created_at": "2023-09-29T01:28:53.425Z",
+        "updated_at": "2023-09-28T20:55:24.935Z",
+        "business_id": "main_entity_pk",
+        "product_id": "dad59ad5-95b2-403b-a73e-ec31b3ca4c67"
+      },
+      {
+        "id": "35c7a534-88d9-407e-941e-a27da640b6fd",
+        "quantity_sold": 11884,
+        "sales_date": "2023-09-29T06:12:56.714Z",
+        "created_at": "2023-09-29T07:51:47.161Z",
+        "updated_at": "2023-09-28T19:04:46.796Z",
+        "business_id": "main_entity_pk",
+        "product_id": "327ed026-5754-4d18-8520-8df0b07113d1"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5d199ae8-7ac2-47f9-9250-69b8ae95f64a",
+        "email": "Bethany.Anderson29@roq.tech",
+        "firstName": "Paige",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/143.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b619ef1-1c12-4342-bb42-81e0c1b7228a",
+        "email": "Jocelyn.Stehr49@roq.tech",
+        "firstName": "Brent",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10756464",
+        "tenantId": null
+      },
+      {
+        "reference": "f357db43-cd72-43d7-acce-81d9848b71fe",
+        "email": "Asa.Abbott@roq.tech",
+        "firstName": "Sigrid",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/387.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d3f5bc04-c872-4891-becb-1ed0ed902de3",
+        "email": "Emmie_Shields@roq.tech",
+        "firstName": "Garrison",
+        "lastName": "Wunsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42571692",
+        "tenantId": null
+      },
+      {
+        "reference": "cf067a85-fdb7-4028-b69a-19805e434472",
+        "email": "Kristopher_Hoeger2@roq.tech",
+        "firstName": "Alyce",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/909.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "ca0cf27e-3112-4e96-ba3c-87a322427179",
+        "first_name": "Emily",
+        "last_name": "Anderson",
+        "email": "emily.anderson@gmail.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T21:58:39.411Z",
+        "updated_at": "2023-09-29T10:41:21.614Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89c06eb5-7f59-4094-bb4b-d40d69291b33",
+        "first_name": "David",
+        "last_name": "Clark",
+        "email": "david.clark@yahoo.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T11:57:44.511Z",
+        "updated_at": "2023-09-28T18:52:52.435Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e43f2d1-be5b-4888-95ad-46e1c8c6259c",
+        "first_name": "Olivia",
+        "last_name": "Taylor",
+        "email": "olivia.taylor@hotmail.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T20:38:43.442Z",
+        "updated_at": "2023-09-29T00:12:22.035Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4fe5b8c3-de6b-42f9-98b0-9b18fe874f5e",
+        "first_name": "Daniel",
+        "last_name": "Harris",
+        "email": "daniel.harris@gmail.com",
+        "address": "321 Maple St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T19:12:28.900Z",
+        "updated_at": "2023-09-28T13:35:24.042Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5b3a274-c04c-4588-a7ce-3c7c9668159f",
+        "first_name": "Sophia",
+        "last_name": "Moore",
+        "email": "sophia.moore@yahoo.com",
+        "address": "654 Pine St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-28T20:46:24.682Z",
+        "updated_at": "2023-09-29T09:04:51.197Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "c022ff3b-15fd-48a0-95e8-b6327bb79b47",
+        "product_name": "T-shirt",
+        "quantity": 82550,
+        "last_restock_date": "2023-09-28T20:07:23.961Z",
+        "next_restock_date": "2023-09-28T13:26:56.478Z",
+        "created_at": "2023-09-28T16:24:10.132Z",
+        "updated_at": "2023-09-28T18:25:10.936Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "1fa78254-65ab-4a51-b732-bfa3ec9dbb2d",
+        "product_name": "Jeans",
+        "quantity": 2044,
+        "last_restock_date": "2023-09-28T18:42:07.742Z",
+        "next_restock_date": "2023-09-29T07:46:31.677Z",
+        "created_at": "2023-09-29T01:19:34.591Z",
+        "updated_at": "2023-09-29T06:18:00.514Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "0d92624d-13ee-4120-baa9-2e39275812c4",
+        "product_name": "Sneakers",
+        "quantity": 33746,
+        "last_restock_date": "2023-09-28T20:55:33.403Z",
+        "next_restock_date": "2023-09-28T17:21:43.178Z",
+        "created_at": "2023-09-29T00:38:08.722Z",
+        "updated_at": "2023-09-29T07:51:13.116Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "48718578-de2c-4c6c-8a1d-a998b20bd864",
+        "product_name": "Watch",
+        "quantity": 40582,
+        "last_restock_date": "2023-09-28T20:40:51.749Z",
+        "next_restock_date": "2023-09-29T04:16:40.732Z",
+        "created_at": "2023-09-29T10:51:17.234Z",
+        "updated_at": "2023-09-28T17:02:14.220Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "c42fd83e-3a10-4ffa-afc9-55d3a02ee15b",
+        "product_name": "Backpack",
+        "quantity": 83695,
+        "last_restock_date": "2023-09-29T01:33:28.919Z",
+        "next_restock_date": "2023-09-28T11:32:51.191Z",
+        "created_at": "2023-09-29T06:29:17.501Z",
+        "updated_at": "2023-09-29T00:57:35.769Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "5cb25bdf-e24e-45ab-ab03-aead36ed568e",
+        "supplier_name": "ABC Suppliers",
+        "quantity_ordered": 64180,
+        "order_date": "2023-09-28T12:41:58.948Z",
+        "expected_delivery_date": "2023-09-28T11:44:34.293Z",
+        "created_at": "2023-09-28T20:57:25.363Z",
+        "updated_at": "2023-09-28T16:00:44.870Z",
+        "business_id": "main_entity_pk",
+        "product_id": "1fa78254-65ab-4a51-b732-bfa3ec9dbb2d"
+      },
+      {
+        "id": "55798c24-fd81-4f7d-b89a-849296f0d244",
+        "supplier_name": "XYZ Distributors",
+        "quantity_ordered": 8319,
+        "order_date": "2023-09-28T19:21:35.430Z",
+        "expected_delivery_date": "2023-09-28T23:50:25.172Z",
+        "created_at": "2023-09-28T12:47:57.077Z",
+        "updated_at": "2023-09-29T06:13:47.385Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c022ff3b-15fd-48a0-95e8-b6327bb79b47"
+      },
+      {
+        "id": "8a798bc2-310c-408d-a143-851f7c4912f6",
+        "supplier_name": "123 Wholesalers",
+        "quantity_ordered": 89449,
+        "order_date": "2023-09-29T06:27:27.540Z",
+        "expected_delivery_date": "2023-09-29T05:11:24.993Z",
+        "created_at": "2023-09-29T05:22:17.929Z",
+        "updated_at": "2023-09-29T05:08:06.450Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c022ff3b-15fd-48a0-95e8-b6327bb79b47"
+      },
+      {
+        "id": "717fc73c-f467-4e91-a887-8325104ce489",
+        "supplier_name": "Smith & Co.",
+        "quantity_ordered": 11307,
+        "order_date": "2023-09-29T05:46:58.767Z",
+        "expected_delivery_date": "2023-09-28T13:55:23.758Z",
+        "created_at": "2023-09-29T07:31:39.370Z",
+        "updated_at": "2023-09-29T08:24:16.492Z",
+        "business_id": "main_entity_pk",
+        "product_id": "0d92624d-13ee-4120-baa9-2e39275812c4"
+      },
+      {
+        "id": "6a4a3878-b97e-4dcf-b5a2-7ce399ef51f8",
+        "supplier_name": "Johnson Manufacturing",
+        "quantity_ordered": 24,
+        "order_date": "2023-09-29T11:04:13.957Z",
+        "expected_delivery_date": "2023-09-29T00:28:03.686Z",
+        "created_at": "2023-09-28T18:11:55.321Z",
+        "updated_at": "2023-09-28T12:54:11.903Z",
+        "business_id": "main_entity_pk",
+        "product_id": "1fa78254-65ab-4a51-b732-bfa3ec9dbb2d"
+      }
+    ],
+    "sales": [
+      {
+        "id": "a68aee10-06c0-4d27-9f1a-3257b04e52f2",
+        "quantity_sold": 80101,
+        "sales_date": "2023-09-29T09:26:28.472Z",
+        "created_at": "2023-09-28T21:48:13.557Z",
+        "updated_at": "2023-09-29T01:59:03.232Z",
+        "business_id": "main_entity_pk",
+        "product_id": "48718578-de2c-4c6c-8a1d-a998b20bd864"
+      },
+      {
+        "id": "55268b07-229b-4347-a797-d4636977308b",
+        "quantity_sold": 97141,
+        "sales_date": "2023-09-28T21:47:20.905Z",
+        "created_at": "2023-09-29T01:13:08.596Z",
+        "updated_at": "2023-09-29T08:52:54.106Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c42fd83e-3a10-4ffa-afc9-55d3a02ee15b"
+      },
+      {
+        "id": "7aec2901-6baf-47f1-8f83-787e7e725aed",
+        "quantity_sold": 37054,
+        "sales_date": "2023-09-28T18:16:27.320Z",
+        "created_at": "2023-09-29T06:42:52.479Z",
+        "updated_at": "2023-09-29T10:47:39.332Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c42fd83e-3a10-4ffa-afc9-55d3a02ee15b"
+      },
+      {
+        "id": "5d2e9764-3173-48a8-9713-2ade42e61541",
+        "quantity_sold": 52306,
+        "sales_date": "2023-09-28T19:44:59.718Z",
+        "created_at": "2023-09-29T04:00:56.456Z",
+        "updated_at": "2023-09-29T11:00:08.228Z",
+        "business_id": "main_entity_pk",
+        "product_id": "48718578-de2c-4c6c-8a1d-a998b20bd864"
+      },
+      {
+        "id": "cb9135e9-33de-40b8-b0cf-ab846bbb4320",
+        "quantity_sold": 49973,
+        "sales_date": "2023-09-28T18:26:21.277Z",
+        "created_at": "2023-09-28T14:30:07.408Z",
+        "updated_at": "2023-09-29T01:46:51.792Z",
+        "business_id": "main_entity_pk",
+        "product_id": "c42fd83e-3a10-4ffa-afc9-55d3a02ee15b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "56f37df3-80b9-44d7-ab7b-ffb5147bbef3",
+        "email": "London.Sipes@roq.tech",
+        "firstName": "Kyla",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73842510",
+        "tenantId": null
+      },
+      {
+        "reference": "13a16072-aada-4786-91d6-24f00502e747",
+        "email": "Brook.Ritchie@roq.tech",
+        "firstName": "Ford",
+        "lastName": "Welch-O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/892.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a13818f5-53c6-4b58-a46f-e3a76e8c8120",
+        "email": "Jadon_Nitzsche43@roq.tech",
+        "firstName": "German",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/341.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "766d7aba-b417-4c14-8be0-0ce62dd83798",
+        "email": "Loma_West@roq.tech",
+        "firstName": "Thora",
+        "lastName": "Feest",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/507.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f53aec8e-6518-4b12-b184-ade6d206e9e7",
+        "email": "Hildegard.Walsh76@roq.tech",
+        "firstName": "Cicero",
+        "lastName": "McCullough",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10764330",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "cb306f14-7513-42b6-9c4f-b0035437fe28",
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-29T08:35:38.468Z",
+        "updated_at": "2023-09-28T23:39:32.151Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4334092e-a3c0-4846-8bf7-bcb4379275cd",
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "email": "jane.smith@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T12:50:55.412Z",
+        "updated_at": "2023-09-29T10:09:15.836Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "823e901c-bf7a-41a7-a90e-6261b16806c5",
+        "first_name": "Michael",
+        "last_name": "Brown",
+        "email": "michael.brown@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T18:22:38.831Z",
+        "updated_at": "2023-09-29T02:18:53.342Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b8b6611-1fe8-43dc-a385-231b8a65a88b",
+        "first_name": "Sarah",
+        "last_name": "Jones",
+        "email": "sarah.jones@example.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-28T21:43:59.550Z",
+        "updated_at": "2023-09-28T19:42:01.119Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a4e79f7-676c-4b38-bade-44ed017ed510",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "email": "robert.wilson@example.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-29T00:35:57.104Z",
+        "updated_at": "2023-09-29T10:33:10.337Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "7f0d4710-a459-4f16-9ed4-c82e4d1986f0",
+        "product_name": "Widget",
+        "quantity": 44913,
+        "last_restock_date": "2023-09-28T17:07:22.250Z",
+        "next_restock_date": "2023-09-28T23:37:50.596Z",
+        "created_at": "2023-09-29T08:47:45.914Z",
+        "updated_at": "2023-09-28T18:38:31.624Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "e5925538-4921-497b-943e-69677053c16b",
+        "product_name": "Gadget",
+        "quantity": 49180,
+        "last_restock_date": "2023-09-29T10:12:15.686Z",
+        "next_restock_date": "2023-09-28T13:25:21.132Z",
+        "created_at": "2023-09-29T02:47:10.334Z",
+        "updated_at": "2023-09-28T12:16:03.570Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "e8d233e0-ab04-42c5-bcad-821cba9e2b3f",
+        "product_name": "Tool",
+        "quantity": 44893,
+        "last_restock_date": "2023-09-28T21:04:46.952Z",
+        "next_restock_date": "2023-09-28T12:53:36.614Z",
+        "created_at": "2023-09-29T03:50:41.561Z",
+        "updated_at": "2023-09-28T13:08:18.029Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "e67dccf6-cff1-4aa3-a9ac-5e3bbe96a9a6",
+        "product_name": "Appliance",
+        "quantity": 78359,
+        "last_restock_date": "2023-09-29T04:35:19.726Z",
+        "next_restock_date": "2023-09-28T11:50:21.162Z",
+        "created_at": "2023-09-29T03:52:40.693Z",
+        "updated_at": "2023-09-28T21:34:14.619Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "3ce22e5b-1873-4fc1-b529-2bd99cdcaf0b",
+        "product_name": "Accessory",
+        "quantity": 30616,
+        "last_restock_date": "2023-09-28T13:26:41.999Z",
+        "next_restock_date": "2023-09-29T06:59:27.397Z",
+        "created_at": "2023-09-29T06:23:55.222Z",
+        "updated_at": "2023-09-29T08:10:51.673Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "e199a4ad-6741-4903-81d1-2bdeae535cc0",
+        "supplier_name": "ABC Supplier",
+        "quantity_ordered": 12144,
+        "order_date": "2023-09-28T19:12:17.368Z",
+        "expected_delivery_date": "2023-09-28T12:40:01.964Z",
+        "created_at": "2023-09-28T18:31:42.933Z",
+        "updated_at": "2023-09-28T23:07:43.460Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e8d233e0-ab04-42c5-bcad-821cba9e2b3f"
+      },
+      {
+        "id": "17a92448-4073-40e7-b1f9-5e71b55f6a58",
+        "supplier_name": "XYZ Supplier",
+        "quantity_ordered": 86192,
+        "order_date": "2023-09-28T16:22:30.044Z",
+        "expected_delivery_date": "2023-09-28T23:36:35.475Z",
+        "created_at": "2023-09-29T03:53:53.861Z",
+        "updated_at": "2023-09-28T21:16:11.760Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7f0d4710-a459-4f16-9ed4-c82e4d1986f0"
+      },
+      {
+        "id": "cba96d0b-3c13-45f9-957e-a9b2420c686f",
+        "supplier_name": "123 Supplier",
+        "quantity_ordered": 63910,
+        "order_date": "2023-09-29T04:38:06.633Z",
+        "expected_delivery_date": "2023-09-28T20:22:06.643Z",
+        "created_at": "2023-09-29T09:52:32.463Z",
+        "updated_at": "2023-09-28T13:36:03.922Z",
+        "business_id": "main_entity_pk",
+        "product_id": "7f0d4710-a459-4f16-9ed4-c82e4d1986f0"
+      },
+      {
+        "id": "b2c775be-f22a-4507-b508-3ca351e72088",
+        "supplier_name": "Smith & Co",
+        "quantity_ordered": 28105,
+        "order_date": "2023-09-28T21:37:46.805Z",
+        "expected_delivery_date": "2023-09-29T05:26:39.369Z",
+        "created_at": "2023-09-29T06:51:01.449Z",
+        "updated_at": "2023-09-29T01:09:55.444Z",
+        "business_id": "main_entity_pk",
+        "product_id": "3ce22e5b-1873-4fc1-b529-2bd99cdcaf0b"
+      },
+      {
+        "id": "172ed775-3127-4763-8e43-016e34096b02",
+        "supplier_name": "Johnson Manufacturing",
+        "quantity_ordered": 50021,
+        "order_date": "2023-09-28T15:11:06.114Z",
+        "expected_delivery_date": "2023-09-29T04:03:05.845Z",
+        "created_at": "2023-09-29T04:05:08.361Z",
+        "updated_at": "2023-09-28T14:58:20.988Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e8d233e0-ab04-42c5-bcad-821cba9e2b3f"
+      }
+    ],
+    "sales": [
+      {
+        "id": "9efba356-d234-4418-bcc9-92eb47b70c34",
+        "quantity_sold": 24234,
+        "sales_date": "2023-09-28T19:24:31.444Z",
+        "created_at": "2023-09-29T09:10:43.667Z",
+        "updated_at": "2023-09-29T02:56:17.959Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e8d233e0-ab04-42c5-bcad-821cba9e2b3f"
+      },
+      {
+        "id": "7d82979a-2729-4337-b822-5ba85f117534",
+        "quantity_sold": 47219,
+        "sales_date": "2023-09-28T17:07:49.226Z",
+        "created_at": "2023-09-28T16:01:04.564Z",
+        "updated_at": "2023-09-28T22:21:23.533Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e5925538-4921-497b-943e-69677053c16b"
+      },
+      {
+        "id": "50eaa79c-497b-4a97-92ed-2b1dae6c879e",
+        "quantity_sold": 90462,
+        "sales_date": "2023-09-29T06:19:03.089Z",
+        "created_at": "2023-09-28T16:16:25.446Z",
+        "updated_at": "2023-09-29T03:08:40.647Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e67dccf6-cff1-4aa3-a9ac-5e3bbe96a9a6"
+      },
+      {
+        "id": "62b89c0e-41a4-48da-9ccd-1f3e949ceb56",
+        "quantity_sold": 71583,
+        "sales_date": "2023-09-29T05:25:53.938Z",
+        "created_at": "2023-09-29T02:05:46.717Z",
+        "updated_at": "2023-09-28T13:56:05.059Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e67dccf6-cff1-4aa3-a9ac-5e3bbe96a9a6"
+      },
+      {
+        "id": "1f0e7cd9-37d9-4cea-a0a8-d0e48d80b7fa",
+        "quantity_sold": 20661,
+        "sales_date": "2023-09-28T22:57:50.689Z",
+        "created_at": "2023-09-29T04:52:29.582Z",
+        "updated_at": "2023-09-28T13:59:09.573Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e8d233e0-ab04-42c5-bcad-821cba9e2b3f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a8217103-6e97-49ce-8bfb-231adb6fbe1d",
+        "email": "Hyman40@roq.tech",
+        "firstName": "Spencer",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/413.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ab2f8f09-e4db-45fd-8e9b-735f2f39b065",
+        "email": "Brooks_Smitham@roq.tech",
+        "firstName": "Jaime",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/761.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "31a083d6-18c3-4093-aa4f-f98ca72e385e",
+        "email": "Bulah_Jenkins@roq.tech",
+        "firstName": "Frankie",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1152.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a1cce735-2ff1-476a-a7f1-5f34659ffcd8",
+        "email": "Adrian_Walter15@roq.tech",
+        "firstName": "Ashton",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68956840",
+        "tenantId": null
+      },
+      {
+        "reference": "860244e5-c86f-47f0-a801-c7992f8b38a4",
+        "email": "Kiara97@roq.tech",
+        "firstName": "Raymond",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/394.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "c1b1e860-ef52-4e74-9228-df7988d1cc6f",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "email": "emily.johnson@gmail.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-28T17:52:49.327Z",
+        "updated_at": "2023-09-29T03:43:17.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11660770-fd36-452f-abed-45749f290ade",
+        "first_name": "David",
+        "last_name": "Anderson",
+        "email": "david.anderson@yahoo.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-29T06:13:45.219Z",
+        "updated_at": "2023-09-28T21:48:08.349Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "204646c5-c0c5-4994-b0b1-283420f266e4",
+        "first_name": "Sophia",
+        "last_name": "Williams",
+        "email": "sophia.williams@hotmail.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-29T06:15:53.495Z",
+        "updated_at": "2023-09-29T02:27:27.459Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e01921c5-fc06-4f57-b059-4bad3a52a2d0",
+        "first_name": "Daniel",
+        "last_name": "Taylor",
+        "email": "daniel.taylor@gmail.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-29T09:45:52.862Z",
+        "updated_at": "2023-09-29T11:16:50.003Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6df9bcbd-9ebf-4989-a46c-46e127b50fbd",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "email": "olivia.brown@yahoo.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-29T08:35:44.663Z",
+        "updated_at": "2023-09-29T02:04:19.123Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "467eebe6-97ac-4f7e-aac6-749deffd8ad0",
+        "product_name": "T-shirt",
+        "quantity": 51675,
+        "last_restock_date": "2023-09-29T09:55:16.468Z",
+        "next_restock_date": "2023-09-29T04:16:45.525Z",
+        "created_at": "2023-09-29T08:15:04.444Z",
+        "updated_at": "2023-09-29T02:03:16.333Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "e2687374-6943-4d65-b778-3ac7888234d8",
+        "product_name": "Jeans",
+        "quantity": 69086,
+        "last_restock_date": "2023-09-28T12:58:29.261Z",
+        "next_restock_date": "2023-09-29T07:55:06.352Z",
+        "created_at": "2023-09-29T06:18:55.055Z",
+        "updated_at": "2023-09-29T00:53:18.344Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "f314241a-a317-41b6-9b3b-76beb994cbd5",
+        "product_name": "Shoes",
+        "quantity": 70870,
+        "last_restock_date": "2023-09-28T16:03:14.681Z",
+        "next_restock_date": "2023-09-28T18:11:26.288Z",
+        "created_at": "2023-09-29T08:41:28.637Z",
+        "updated_at": "2023-09-29T10:07:07.302Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "e8127c60-0c9d-46f5-bf1c-37872472249e",
+        "product_name": "Sunglasses",
+        "quantity": 86281,
+        "last_restock_date": "2023-09-29T07:18:07.388Z",
+        "next_restock_date": "2023-09-28T15:40:23.818Z",
+        "created_at": "2023-09-29T05:34:35.812Z",
+        "updated_at": "2023-09-29T11:02:17.761Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "5b31a0e4-7c0b-4680-a20f-bdf086abe024",
+        "product_name": "Watch",
+        "quantity": 11483,
+        "last_restock_date": "2023-09-29T09:16:32.693Z",
+        "next_restock_date": "2023-09-29T10:48:59.395Z",
+        "created_at": "2023-09-28T18:02:29.631Z",
+        "updated_at": "2023-09-29T03:03:33.666Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "6ec87ae4-28f7-45b3-9808-897d585520fd",
+        "supplier_name": "ABC Company",
+        "quantity_ordered": 75106,
+        "order_date": "2023-09-28T19:56:12.475Z",
+        "expected_delivery_date": "2023-09-28T20:25:34.494Z",
+        "created_at": "2023-09-29T01:25:14.657Z",
+        "updated_at": "2023-09-28T18:27:30.084Z",
+        "business_id": "main_entity_pk",
+        "product_id": "f314241a-a317-41b6-9b3b-76beb994cbd5"
+      },
+      {
+        "id": "dedbc9bd-b349-4fa7-83c2-36adf17fc991",
+        "supplier_name": "XYZ Corporation",
+        "quantity_ordered": 5911,
+        "order_date": "2023-09-28T22:23:04.319Z",
+        "expected_delivery_date": "2023-09-29T09:12:26.249Z",
+        "created_at": "2023-09-29T05:35:38.536Z",
+        "updated_at": "2023-09-28T15:40:22.213Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5b31a0e4-7c0b-4680-a20f-bdf086abe024"
+      },
+      {
+        "id": "29bf825f-9411-43df-9e42-bfca03feb7b0",
+        "supplier_name": "123 Enterprises",
+        "quantity_ordered": 25499,
+        "order_date": "2023-09-28T17:27:06.872Z",
+        "expected_delivery_date": "2023-09-29T03:45:01.182Z",
+        "created_at": "2023-09-29T10:39:06.995Z",
+        "updated_at": "2023-09-28T17:14:15.326Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5b31a0e4-7c0b-4680-a20f-bdf086abe024"
+      },
+      {
+        "id": "1cadaf40-2eed-428f-bc56-37f2af07820c",
+        "supplier_name": "Best Suppliers",
+        "quantity_ordered": 69980,
+        "order_date": "2023-09-29T02:16:12.536Z",
+        "expected_delivery_date": "2023-09-28T14:14:47.517Z",
+        "created_at": "2023-09-29T07:19:02.189Z",
+        "updated_at": "2023-09-29T06:15:13.254Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e2687374-6943-4d65-b778-3ac7888234d8"
+      },
+      {
+        "id": "9ae67de8-c726-46e1-8db5-dba8aaf4ee5f",
+        "supplier_name": "Global Trading",
+        "quantity_ordered": 52835,
+        "order_date": "2023-09-29T08:30:09.375Z",
+        "expected_delivery_date": "2023-09-29T02:51:36.883Z",
+        "created_at": "2023-09-29T07:41:20.564Z",
+        "updated_at": "2023-09-28T19:38:27.849Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e8127c60-0c9d-46f5-bf1c-37872472249e"
+      }
+    ],
+    "sales": [
+      {
+        "id": "4faf32ff-cef7-4f79-85c5-bda0af50f070",
+        "quantity_sold": 863,
+        "sales_date": "2023-09-29T10:15:52.941Z",
+        "created_at": "2023-09-29T07:59:03.643Z",
+        "updated_at": "2023-09-29T06:06:58.304Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e2687374-6943-4d65-b778-3ac7888234d8"
+      },
+      {
+        "id": "f542fcc8-9bc6-4028-a4fa-7d401ed73d7f",
+        "quantity_sold": 97712,
+        "sales_date": "2023-09-28T16:42:27.601Z",
+        "created_at": "2023-09-29T01:15:02.318Z",
+        "updated_at": "2023-09-29T10:59:35.236Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e8127c60-0c9d-46f5-bf1c-37872472249e"
+      },
+      {
+        "id": "d015a39e-9243-47a2-b894-66a82276b752",
+        "quantity_sold": 63522,
+        "sales_date": "2023-09-29T02:08:13.425Z",
+        "created_at": "2023-09-28T22:33:54.749Z",
+        "updated_at": "2023-09-29T01:28:14.492Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5b31a0e4-7c0b-4680-a20f-bdf086abe024"
+      },
+      {
+        "id": "c7674533-9a3f-48aa-8bf2-c28680b0ca86",
+        "quantity_sold": 90484,
+        "sales_date": "2023-09-28T14:32:17.887Z",
+        "created_at": "2023-09-29T06:06:04.347Z",
+        "updated_at": "2023-09-28T23:58:40.590Z",
+        "business_id": "main_entity_pk",
+        "product_id": "e2687374-6943-4d65-b778-3ac7888234d8"
+      },
+      {
+        "id": "f029aefd-ede5-44cf-8f48-41833b589356",
+        "quantity_sold": 75069,
+        "sales_date": "2023-09-29T10:27:53.822Z",
+        "created_at": "2023-09-28T22:42:47.692Z",
+        "updated_at": "2023-09-28T18:27:01.995Z",
+        "business_id": "main_entity_pk",
+        "product_id": "5b31a0e4-7c0b-4680-a20f-bdf086abe024"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "64de594b-3316-404f-98d1-3f06f3703317",
+        "email": "Kory_Wyman4@roq.tech",
+        "firstName": "Cleo",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/426.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3e50b554-9c37-465a-b5a6-f33b1cb29f9c",
+        "email": "Bennie.Morissette92@roq.tech",
+        "firstName": "Emilio",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98954224",
+        "tenantId": null
+      },
+      {
+        "reference": "068a735a-dc5a-4f5d-a002-59e57c3861f8",
+        "email": "Weldon.Ullrich43@roq.tech",
+        "firstName": "London",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/406.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c45dc050-1b99-4f4b-a0ce-727ca562aa14",
+        "email": "Iva.Waelchi33@roq.tech",
+        "firstName": "Darrin",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68118429",
+        "tenantId": null
+      },
+      {
+        "reference": "a3cc024a-a63d-4d6a-93af-1124168c0719",
+        "email": "Sven34@roq.tech",
+        "firstName": "Yazmin",
+        "lastName": "Mohr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/975.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "customer": [
+      {
+        "id": "4fc7f8af-c11e-4858-b681-f756874ccfef",
+        "first_name": "Alice",
+        "last_name": "Anderson",
+        "email": "alice.anderson@example.com",
+        "address": "123 Main St",
+        "city": "New York",
+        "state": "NY",
+        "zip_code": "10001",
+        "created_at": "2023-09-29T07:27:50.041Z",
+        "updated_at": "2023-09-28T18:14:04.653Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c1ab302-e95d-4071-980a-290f0cc79317",
+        "first_name": "Bob",
+        "last_name": "Brown",
+        "email": "bob.brown@example.com",
+        "address": "456 Elm St",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip_code": "90001",
+        "created_at": "2023-09-28T15:49:12.211Z",
+        "updated_at": "2023-09-28T19:24:48.905Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29f9f8bd-d907-4764-8a17-cca27ca2a544",
+        "first_name": "Eve",
+        "last_name": "Evans",
+        "email": "eve.evans@example.com",
+        "address": "789 Oak St",
+        "city": "Chicago",
+        "state": "IL",
+        "zip_code": "60601",
+        "created_at": "2023-09-28T13:26:38.204Z",
+        "updated_at": "2023-09-29T08:36:50.668Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9859ecc6-45b7-4997-a118-251e3ba7195c",
+        "first_name": "Charlie",
+        "last_name": "Clark",
+        "email": "charlie.clark@example.com",
+        "address": "321 Pine St",
+        "city": "Houston",
+        "state": "TX",
+        "zip_code": "77001",
+        "created_at": "2023-09-29T03:28:51.331Z",
+        "updated_at": "2023-09-29T06:55:02.416Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50208272-15e2-406f-a635-7cd782a78337",
+        "first_name": "Grace",
+        "last_name": "Green",
+        "email": "grace.green@example.com",
+        "address": "654 Maple St",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip_code": "85001",
+        "created_at": "2023-09-29T10:03:09.295Z",
+        "updated_at": "2023-09-28T15:32:23.464Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "inventory": [
+      {
+        "id": "f38755e1-dfb4-48e8-b952-0cb289147dfb",
+        "product_name": "T-shirt",
+        "quantity": 17171,
+        "last_restock_date": "2023-09-29T04:16:21.586Z",
+        "next_restock_date": "2023-09-28T23:15:21.325Z",
+        "created_at": "2023-09-29T07:43:00.155Z",
+        "updated_at": "2023-09-28T20:54:52.401Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "d3c9721d-ff44-44a4-9523-3e3165eefb2a",
+        "product_name": "Jeans",
+        "quantity": 69887,
+        "last_restock_date": "2023-09-28T18:25:43.435Z",
+        "next_restock_date": "2023-09-28T11:35:07.602Z",
+        "created_at": "2023-09-28T21:59:16.446Z",
+        "updated_at": "2023-09-28T21:39:57.252Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "4166041c-a1fa-428c-bcf1-8de8f70a2ae4",
+        "product_name": "Sneakers",
+        "quantity": 35550,
+        "last_restock_date": "2023-09-29T04:33:14.279Z",
+        "next_restock_date": "2023-09-28T21:33:59.117Z",
+        "created_at": "2023-09-28T13:32:47.274Z",
+        "updated_at": "2023-09-28T11:39:54.904Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "950d96a2-ea29-4700-9196-87c10790f546",
+        "product_name": "Dress",
+        "quantity": 33840,
+        "last_restock_date": "2023-09-29T10:59:15.661Z",
+        "next_restock_date": "2023-09-29T02:48:07.776Z",
+        "created_at": "2023-09-29T05:39:33.189Z",
+        "updated_at": "2023-09-28T23:49:38.209Z",
+        "business_id": "main_entity_pk"
+      },
+      {
+        "id": "95e73d65-74f6-4724-9d15-d3f40002e4ae",
+        "product_name": "Watch",
+        "quantity": 64376,
+        "last_restock_date": "2023-09-28T22:22:28.683Z",
+        "next_restock_date": "2023-09-28T13:57:26.026Z",
+        "created_at": "2023-09-28T17:06:34.531Z",
+        "updated_at": "2023-09-29T05:23:50.704Z",
+        "business_id": "main_entity_pk"
+      }
+    ],
+    "supply_chain": [
+      {
+        "id": "c46e3363-e95c-49da-9dd9-87e4d08a2af3",
+        "supplier_name": "ABC Suppliers",
+        "quantity_ordered": 210,
+        "order_date": "2023-09-29T01:36:49.678Z",
+        "expected_delivery_date": "2023-09-28T18:34:32.978Z",
+        "created_at": "2023-09-28T19:50:36.948Z",
+        "updated_at": "2023-09-29T09:20:51.452Z",
+        "business_id": "main_entity_pk",
+        "product_id": "95e73d65-74f6-4724-9d15-d3f40002e4ae"
+      },
+      {
+        "id": "c28c90ca-495e-4db1-b020-7c4724ffeafd",
+        "supplier_name": "XYZ Distributors",
+        "quantity_ordered": 98732,
+        "order_date": "2023-09-28T13:38:27.100Z",
+        "expected_delivery_date": "2023-09-28T16:03:07.399Z",
+        "created_at": "2023-09-28T13:43:14.925Z",
+        "updated_at": "2023-09-28T23:55:57.466Z",
+        "business_id": "main_entity_pk",
+        "product_id": "d3c9721d-ff44-44a4-9523-3e3165eefb2a"
+      },
+      {
+        "id": "a06284b7-6724-4266-981d-0bd0dbd74545",
+        "supplier_name": "123 Manufacturing",
+        "quantity_ordered": 52546,
+        "order_date": "2023-09-29T09:54:47.620Z",
+        "expected_delivery_date": "2023-09-29T02:15:13.573Z",
+        "created_at": "2023-09-28T13:53:04.691Z",
+        "updated_at": "2023-09-28T18:29:31.452Z",
+        "business_id": "main_entity_pk",
+        "product_id": "950d96a2-ea29-4700-9196-87c10790f546"
+      },
+      {
+        "id": "657080ed-7ec1-4af1-8b16-b1faba3ef49d",
+        "supplier_name": "456 Imports",
+        "quantity_ordered": 58023,
+        "order_date": "2023-09-28T21:09:35.020Z",
+        "expected_delivery_date": "2023-09-28T21:55:37.884Z",
+        "created_at": "2023-09-29T07:48:14.513Z",
+        "updated_at": "2023-09-28T19:58:46.161Z",
+        "business_id": "main_entity_pk",
+        "product_id": "95e73d65-74f6-4724-9d15-d3f40002e4ae"
+      },
+      {
+        "id": "a2c1eb25-e18c-4718-a40b-b8e2159309fd",
+        "supplier_name": "789 Exporters",
+        "quantity_ordered": 76593,
+        "order_date": "2023-09-28T17:52:22.948Z",
+        "expected_delivery_date": "2023-09-29T01:32:34.293Z",
+        "created_at": "2023-09-28T18:45:57.424Z",
+        "updated_at": "2023-09-29T04:30:14.190Z",
+        "business_id": "main_entity_pk",
+        "product_id": "d3c9721d-ff44-44a4-9523-3e3165eefb2a"
+      }
+    ],
+    "sales": [
+      {
+        "id": "2f3086a0-4638-4023-aa68-a8b275a0d34d",
+        "quantity_sold": 66227,
+        "sales_date": "2023-09-28T15:05:31.769Z",
+        "created_at": "2023-09-28T20:27:50.012Z",
+        "updated_at": "2023-09-28T12:37:17.859Z",
+        "business_id": "main_entity_pk",
+        "product_id": "f38755e1-dfb4-48e8-b952-0cb289147dfb"
+      },
+      {
+        "id": "845241fb-a784-404e-a3fe-8c4140596875",
+        "quantity_sold": 75185,
+        "sales_date": "2023-09-28T18:40:46.257Z",
+        "created_at": "2023-09-28T19:05:56.003Z",
+        "updated_at": "2023-09-28T11:32:15.318Z",
+        "business_id": "main_entity_pk",
+        "product_id": "950d96a2-ea29-4700-9196-87c10790f546"
+      },
+      {
+        "id": "78f2cce6-0f21-4a12-a8d0-12ca43d1e658",
+        "quantity_sold": 9729,
+        "sales_date": "2023-09-29T03:48:37.687Z",
+        "created_at": "2023-09-28T20:30:53.598Z",
+        "updated_at": "2023-09-28T18:25:07.069Z",
+        "business_id": "main_entity_pk",
+        "product_id": "f38755e1-dfb4-48e8-b952-0cb289147dfb"
+      },
+      {
+        "id": "349487a8-95f8-4ea2-b881-93bcfac563be",
+        "quantity_sold": 58303,
+        "sales_date": "2023-09-29T10:57:23.949Z",
+        "created_at": "2023-09-29T01:06:42.155Z",
+        "updated_at": "2023-09-29T08:03:38.601Z",
+        "business_id": "main_entity_pk",
+        "product_id": "950d96a2-ea29-4700-9196-87c10790f546"
+      },
+      {
+        "id": "ad4f4713-f6e6-4cc2-b450-1392ca482c20",
+        "quantity_sold": 63267,
+        "sales_date": "2023-09-29T01:42:05.891Z",
+        "created_at": "2023-09-29T04:28:41.734Z",
+        "updated_at": "2023-09-29T00:14:09.540Z",
+        "business_id": "main_entity_pk",
+        "product_id": "f38755e1-dfb4-48e8-b952-0cb289147dfb"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "056a5e2e-70ff-4b17-b9e0-25d36e7efbe3",
+        "email": "Autumn75@roq.tech",
+        "firstName": "America",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28756340",
+        "tenantId": null
+      },
+      {
+        "reference": "9bc14d75-c8fb-4f58-8a1e-8c8d9ff5ac4a",
+        "email": "Mylene.Gibson43@roq.tech",
+        "firstName": "Braeden",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/979.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0e8c6084-3ad6-4884-baa3-f26d9cfec8fe",
+        "email": "Dexter.McKenzie@roq.tech",
+        "firstName": "Ressie",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/510.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4b4726ad-baf9-4360-8ad5-d6798d212ef7",
+        "email": "Cyrus88@roq.tech",
+        "firstName": "Asha",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/386.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0c422da6-95a7-4f36-b794-a93509775bd2",
+        "email": "Johnathon23@roq.tech",
+        "firstName": "Palma",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/384.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
